@@ -1,5 +1,14 @@
 # spring-security-demo
 
+This is simple spring security demo project which shows basic configuration for role based security to APIs.
+
+There are 3 APIs (details are given below) and 2 roles (ADMIN and CLIENT).
+The 1st API can be accessed by both roles.
+The 2nd API can be accessed by only ADMIN.
+The 3rd API can be accessed by only CLIENT.
+
+The
+
 ### Prerequisites:
 
 The database spring_security_demo should be exist with my_user table and below entries should be present in the table:
